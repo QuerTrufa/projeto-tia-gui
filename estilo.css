@@ -1,0 +1,152 @@
+/* Reset global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #fefae0;
+    color: #283618;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Estilo de cabeçalhos */
+h1, h2 {
+    color: #606c38;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilizando a navegação */
+nav {
+    background-color: #606c38;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #fefae0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #bc6c25;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+a:hover {
+    background-color: #dda15e;
+}
+
+/* Estilo dos formulários */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #606c38;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+form input, form select, form textarea, form button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form input, form select, form textarea {
+    background-color: #fefae0;
+    color: #283618;
+    font-size: 14px;
+}
+
+form button {
+    background-color: #bc6c25;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+form button:hover {
+    background-color: #dda15e;
+    transform: scale(1.05);
+}
+
+/* Botões de ação */
+button {
+    display: block;
+    width: 220px;
+    margin: 20px auto;
+    padding: 12px;
+    background-color: #bc6c25;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #dda15e;
+    transform: scale(1.05);
+}
+
+/* Estilo das listas */
+ul {
+    list-style: none;
+    padding: 20px;
+}
+
+ul li {
+    padding: 12px;
+    background-color: #dda15e;
+    margin: 8px 0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+ul li a {
+    color: #283618;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: #606c38;
+}
+
+/* Responsividade para dispositivos menores */
+@media (max-width: 600px) {
+    form {
+        max-width: 90%;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    button {
+        width: 100%;
+    }
+}
